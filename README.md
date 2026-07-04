@@ -26,7 +26,7 @@
 - [iOS平台](#ios)
 - [使用教程](#tutorial)
 - [常见问题](#faq)
-- [主流与二次开发工具](#classification)
+- [二次开发工具](#secondary-development)
 
 ---
 
@@ -213,6 +213,48 @@
 
 ---
 
+<span id="secondary-development"></span>
+## 二次开发 / Fork 工具
+
+以下工具主要为社区 Fork、二次开发、增强版或小众项目，可根据平台和功能需求选择。
+
+### 1. 订阅转换工具（增强前端）
+
+| 名称 | 核心 | 平台 | 特点 / 二次开发亮点 | 推荐指数 | 链接 |
+|---|---|---|---|---|---|
+| **sub-web-modify** | SubConverter | 在线 / 自建 | 暗黑模式、远程配置、节点排序筛选、短链、Vercel 一键部署 | ★★★★★ | [GitHub](https://github.com/youshandefeiyang/sub-web-modify) |
+
+### 2. 桌面客户端（含多平台）
+
+| 名称 | 核心 | 平台 | 特点 / 二次开发亮点 | 推荐指数 | 下载地址 |
+|---|---|---|---|---|---|
+| **Throne** | sing-box | Windows / macOS / Linux | Nekoray 的延续项目，功能增强并持续更新 | ★★★★★ | [Releases](https://github.com/throneproj/Throne/releases) |
+| **FlClash** | Mihomo | Windows / macOS / Linux / Android | Flutter + Fluent UI，轻量跨平台 | ★★★★☆ | [Releases](https://github.com/chen08209/FlClash/releases) |
+| **Bettbox** | Mihomo | Windows / macOS / Linux / Android | 基于 FlClash 早期版本改进，支持首页小组件和主题自定义 | ★★★★☆ | [Releases](https://github.com/appshubcc/Bettbox/releases) |
+| **Mihomo Party（Clash Party）** | Mihomo | Windows / macOS / Linux | 简洁高效、一键导入订阅、规则自动更新 | ★★★★☆ | [Releases](https://github.com/mihomo-party-org/clash-party/releases) |
+| **GUI.for.Cores** | Mihomo + sing-box | 桌面 | 极简的多内核 GUI 集合 | ★★★★☆ | [官网](https://gui-for-cores.github.io/) |
+| **ClashTui** | Mihomo + sing-box | 终端（TUI） | 命令行界面、双内核切换，适合进阶用户 | ★★★☆☆ | [GitHub](https://github.com/JohanChane/clashtui) |
+
+### 3. 移动客户端（含多平台二次开发）
+
+| 名称 | 核心 | 平台 | 特点 / 二次开发亮点 | 推荐指数 | 下载地址 |
+|---|---|---|---|---|---|
+| **Clash Mi** | Mihomo | iOS 为主，支持多平台 | KaringX 出品，支持完整 Mihomo 功能、覆写和 WebDAV | ★★★★★ | [Releases](https://github.com/KaringX/clashmi/releases) / [官网](https://clashmi.app/) |
+| **Bettbox** | Mihomo | Windows / macOS / Linux / Android | 多平台客户端，支持统一使用体验 | ★★★★☆ | [Releases](https://github.com/appshubcc/Bettbox/releases) |
+| **FlClash** | Mihomo | Windows / macOS / Linux / Android | Flutter 开发的多平台客户端 | ★★★★☆ | [Releases](https://github.com/chen08209/FlClash/releases) |
+| **clash-xiaoy** | Mihomo | iOS | 轻量 iOS Mihomo 客户端 | ★★★☆☆ | [GitHub](https://github.com/aimy1/clash-xiaoy) |
+| **YumeBox** | Mihomo | iOS | 注重界面与使用体验 | ★★★☆☆ | [GitHub](https://github.com/YumeLira/YumeBox) |
+| **Zephyr** | Mihomo | iOS | 界面简洁现代 | ★★★☆☆ | [GitHub](https://github.com/Juwan-Hwang/Zephyr) |
+
+### 4. 其他二次开发 / 小众工具
+
+| 名称 | 类型 | 平台 | 特点 | 推荐指数 | 链接 |
+|---|---|---|---|---|---|
+| OpenClash | 软路由 | OpenWrt | 成熟的 OpenWrt 代理插件 | ★★★★☆ | [GitHub](https://github.com/vernesong/OpenClash) |
+| Nekoray 旧版 Fork | 桌面 | 桌面 | 多数已归档，建议优先使用 Throne | - | - |
+
+---
+
 <span id="ios"></span>
 ## iOS平台（需非国区 Apple ID）
 
@@ -332,132 +374,6 @@
 - 报告失效的下载链接  
 - 补充使用教程和技巧  
 - 提出改进建议
-
----
-
-**最后更新**：2026年4月14日  
-**项目地址**：https://github.com/maomao533/dingyue-tools/tree/main
-
----
-
-<span id="classification"></span>
-## 补充：机场节点订阅工具分类（主流 vs 二次开发）
-
-本文将机场节点订阅工具分为两大类：
-
-- **主流工具**：社区使用广泛、成熟度高、推荐指数高的工具
-- **二次开发 / Fork 工具**：社区 Fork、二次开发、增强版及小众项目
-
-表格从名称、核心、平台、特点、推荐指数和下载地址等方面进行整理，方便快速选择。
-
----
-
-## 一、主流工具（Mainstream）
-
-### 1. 订阅转换工具
-
-| 名称 | 核心 | 平台 | 特点 | 推荐指数 | 链接 |
-|---|---|---|---|---|---|
-| SubConverter | - | 自建 | 行业标配，支持多种订阅格式互转 | ★★★★★ | [GitHub](https://github.com/tindy2013/subconverter) |
-| Dler | SubConverter | 在线 | 使用方便，服务稳定 | ★★★★★ | [在线使用](https://sub.dler.io/) |
-| ACL4SSR | SubConverter | 在线 | 规则丰富，适合精细化分流 | ★★★★★ | [在线使用](https://acl4ssr-sub.github.io/) |
-
-### 2. 桌面客户端
-
-| 名称 | 核心 | 平台 | 特点 | 推荐指数 | 下载地址 |
-|---|---|---|---|---|---|
-| **Clash Verge Rev** | Mihomo | Windows / macOS / Linux | 现代 GUI、TUN 模式、规则强大、社区活跃 | ★★★★★ | [Releases](https://github.com/clash-verge-rev/clash-verge-rev/releases) |
-| **v2rayN** | Xray / v2fly | Windows | 成熟稳定、内置测速、协议丰富 | ★★★★★ | [Releases](https://github.com/2dust/v2rayN/releases) |
-| **Hiddify Next** | sing-box | Windows / macOS / Linux / Android / iOS | 现代协议支持好，界面简洁，多平台可用 | ★★★★☆ | [Hiddify Next Releases](https://github.com/hiddify/hiddify-next/releases) |
-
-### 3. 移动客户端
-
-| 名称 | 核心 | 平台 | 特点 | 推荐指数 | 下载地址 |
-|---|---|---|---|---|---|
-| **Shadowrocket** | 多协议 | iOS | 使用人数多，规则与重写功能强大 | ★★★★★ | [App Store](https://apps.apple.com/app/shadowrocket/id932747118) |
-| **Stash** | Clash | iOS | Clash 风格，规则使用体验优秀 | ★★★★☆ | App Store 搜索 Stash |
-| **v2rayNG** | Xray | Android | 经典、稳定、轻量 | ★★★★★ | [Releases](https://github.com/2dust/v2rayNG/releases) |
-| **Clash Meta for Android** | Mihomo | Android | 规则分流功能强大 | ★★★★☆ | [Releases](https://github.com/MetaCubeX/ClashMetaForAndroid/releases) |
-
-### 4. 节点测速与质量筛选工具
-
-| 名称 | 类型 | 支持 | 特点 | 推荐指数 | 下载地址 |
-|---|---|---|---|---|---|
-| **StairSpeedtest Reborn** | 速度 + Ping | 多协议 / 订阅 | 跨平台、可生成报告、经典实用 | ★★★★★ | [Releases](https://github.com/tindy2013/stairspeedtest-reborn/releases) |
-| **FullTClash** | 解锁 + 质量测试 | Clash 配置 | 支持通过 Telegram Bot 批量测试 | ★★★★★ | [Releases](https://github.com/AirportR/FullTclash/releases) |
-
----
-
-## 二、二次开发 / Fork 工具（Secondary Development / Forks）
-
-### 1. 订阅转换工具（增强前端）
-
-| 名称 | 核心 | 平台 | 特点 / 二次开发亮点 | 推荐指数 | 链接 |
-|---|---|---|---|---|---|
-| **sub-web-modify** | SubConverter | 在线 / 自建 | 暗黑模式、远程配置、节点排序筛选、短链、Vercel 一键部署 | ★★★★★ | [GitHub](https://github.com/youshandefeiyang/sub-web-modify) |
-
-### 2. 桌面客户端（含多平台）
-
-| 名称 | 核心 | 平台 | 特点 / 二次开发亮点 | 推荐指数 | 下载地址 |
-|---|---|---|---|---|---|
-| **Throne** | sing-box | Windows / macOS / Linux | Nekoray 的延续项目，功能增强并持续更新 | ★★★★★ | [Releases](https://github.com/throneproj/Throne/releases) |
-| **FlClash** | Mihomo | Windows / macOS / Linux / Android | Flutter + Fluent UI，轻量跨平台 | ★★★★☆ | [Releases](https://github.com/chen08209/FlClash/releases) |
-| **Bettbox** | Mihomo | Windows / macOS / Linux / Android | 基于 FlClash 早期版本改进，支持首页小组件和主题自定义 | ★★★★☆ | [Releases](https://github.com/appshubcc/Bettbox/releases) |
-| **Mihomo Party（Clash Party）** | Mihomo | Windows / macOS / Linux | 简洁高效、一键导入订阅、规则自动更新 | ★★★★☆ | [Releases](https://github.com/mihomo-party-org/clash-party/releases) |
-| **GUI.for.Cores** | Mihomo + sing-box | 桌面 | 极简的多内核 GUI 集合 | ★★★★☆ | [官网](https://gui-for-cores.github.io/) |
-| **ClashTui** | Mihomo + sing-box | 终端（TUI） | 命令行界面、双内核切换，适合进阶用户 | ★★★☆☆ | [GitHub](https://github.com/JohanChane/clashtui) |
-
-### 3. 移动客户端（含多平台二次开发）
-
-| 名称 | 核心 | 平台 | 特点 / 二次开发亮点 | 推荐指数 | 下载地址 |
-|---|---|---|---|---|---|
-| **Clash Mi** | Mihomo | iOS 为主，支持多平台 | KaringX 出品，支持完整 Mihomo 功能、覆写和 WebDAV | ★★★★★ | [Releases](https://github.com/KaringX/clashmi/releases) / [官网](https://clashmi.app/) |
-| **Bettbox** | Mihomo | Windows / macOS / Linux / Android | 多平台客户端，支持统一使用体验 | ★★★★☆ | [Releases](https://github.com/appshubcc/Bettbox/releases) |
-| **FlClash** | Mihomo | Windows / macOS / Linux / Android | Flutter 开发的多平台客户端 | ★★★★☆ | [Releases](https://github.com/chen08209/FlClash/releases) |
-| **clash-xiaoy** | Mihomo | iOS | 轻量 iOS Mihomo 客户端 | ★★★☆☆ | [GitHub](https://github.com/aimy1/clash-xiaoy) |
-| **YumeBox** | Mihomo | iOS | 注重界面与使用体验 | ★★★☆☆ | [GitHub](https://github.com/YumeLira/YumeBox) |
-| **Zephyr** | Mihomo | iOS | 界面简洁现代 | ★★★☆☆ | [GitHub](https://github.com/Juwan-Hwang/Zephyr) |
-
-### 4. 其他二次开发 / 小众工具
-
-| 名称 | 类型 | 平台 | 特点 | 推荐指数 | 链接 |
-|---|---|---|---|---|---|
-| OpenClash | 软路由 | OpenWrt | 成熟的 OpenWrt 代理插件 | ★★★★☆ | [GitHub](https://github.com/vernesong/OpenClash) |
-| Nekoray 旧版 Fork | 桌面 | 桌面 | 多数已归档，建议优先使用 Throne | - | - |
-
----
-
-## 分类说明与选择建议
-
-### 主流工具
-
-适合大多数用户，成熟度高、社区支持好、文档完善。推荐指数为 ★★★★★ 的工具基本可以覆盖大部分日常需求。
-
-### 二次开发 / Fork 工具
-
-- **Throne**：适合原 Nekoray 用户
-- **Bettbox**：适合需要桌面端与 Android 多平台体验的用户
-- **Clash Mi**：适合需要免费 iOS Mihomo 客户端的用户
-- **sub-web-modify**：适合需要增强型订阅转换前端的用户
-- **ClashTui / GUI.for.Cores**：适合偏好终端或极简界面的用户
-- **FlClash / Bettbox**：适合希望在多个平台使用相近体验的用户
-
-## 2026 年推荐优先级
-
-1. Clash 订阅：Clash Verge Rev（主流）或 Bettbox / FlClash（二次开发）
-2. sing-box 新协议：Throne / Hiddify Next / Karing
-3. iOS 免费 Mihomo：Clash Mi
-4. 订阅转换：sub-web-modify（自建或镜像）
-5. 节点筛选：FullTClash + StairSpeedtest Reborn
-
----
-
-## 免责声明
-
-- 本文仅供技术交流和学习使用
-- 请遵守当地法律法规
-- 请合理、合法地使用网络服务
-- 使用在线订阅转换服务时，请注意保护订阅链接和个人隐私
 
 ---
 
