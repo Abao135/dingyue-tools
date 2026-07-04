@@ -26,7 +26,7 @@
 - [iOS平台](#ios)
 - [使用教程](#tutorial)
 - [常见问题](#faq)
-- [主流与二次开发工具分类](#classification)
+- [主流与二次开发工具](#classification)
 
 ---
 
