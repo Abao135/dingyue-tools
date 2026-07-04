@@ -23,10 +23,10 @@
 - [macOS平台](#macos)
 - [Linux平台](#linux)
 - [Android平台](#android)
+- [二次开发工具](#secondary-development)
 - [iOS平台](#ios)
 - [使用教程](#tutorial)
 - [常见问题](#faq)
-- [二次开发工具](#secondary-development)
 
 ---
 
